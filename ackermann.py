@@ -1,6 +1,6 @@
 def ackermann(m,n):
      if m == 0:
-          return int(2)*int(n)
+        return int(2)*int(n)
      elif m >= 1 and n==0:
         return 0
      elif m >= 1 and n==1:
